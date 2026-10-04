@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Model weights / run outputs (large, do not commit)
+*.pth
+*.pt
+*.ckpt
+*.tmp
+output/
+outputs/
+checkpoints/
+logs/
+predictions/
+
+# Data
+data/
+*.pkl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
